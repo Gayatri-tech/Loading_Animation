@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+div {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 20vmin;
+  left: 10vmin;
+  border-radius: 50%;
+  border: 5px solid rgb(175, 244, 248);
+  border-top: 5px solid rgb(83, 179, 226);
+  animation: loader 2s linear infinite;
+}
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
